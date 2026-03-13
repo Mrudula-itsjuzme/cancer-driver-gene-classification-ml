@@ -1,0 +1,21 @@
+# Python environments
+.venv/
+venv/
+myenv/
+
+# Editor
+.vscode/
+
+# Build and cache
+__pycache__/
+*.py[cod]
+*.log
+
+# Large ML artifacts
+artifacts/
+chunks/
+*.pkl
+*.parquet
+
+# Optional generated outputs
+*.png
