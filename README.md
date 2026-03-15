@@ -1,20 +1,35 @@
-# Bio ML Experiments
+# cancer-driver-gene-classification-ml
 
-This repository contains bioinformatics and machine learning experiment code from semester project work.
+## Overview
+Part of AI research portfolio domain: biomedical-ai.
 
-## Included
-- Python source scripts for feature engineering and model experimentation
-- Analysis notes and documentation
+## Problem Statement
+Define a reproducible research objective.
 
-## Excluded from version control
-- Virtual environments
-- Trained model binaries and preprocessors
-- Large intermediate artifacts and chunk outputs
+## System Architecture
+See docs/architecture.md.
 
-## Quick Start
-1. Create and activate a Python virtual environment
-2. Install dependencies from requirements file if available
-3. Run the required experiment script
+## Methodology
+See docs/methodology.md.
 
-## Notes
-The repository was prepared for clean source control publishing by excluding large generated files.
+## Implementation
+- src/
+- experiments/
+- notebooks/
+- tests/
+- datasets/
+- docs/
+- scripts/
+
+## Results
+See docs/results.md.
+
+## Usage Instructions
+1. Install dependencies.
+2. Run scripts.
+3. Execute experiments.
+
+## Future Work
+- Improve reproducibility
+- Expand evaluation
+- Increase test coverage
