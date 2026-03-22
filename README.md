@@ -1,20 +1,29 @@
-# Bio ML Experiments
+# Cancer Driver Gene Classification with Machine Learning
 
-This repository contains bioinformatics and machine learning experiment code from semester project work.
+This repository contains bioinformatics research and machine learning experiments focused on classifying cancer driver genes.
 
-## Included
-- Python source scripts for feature engineering and model experimentation
-- Analysis notes and documentation
+## Overview
 
-## Excluded from version control
-- Virtual environments
-- Trained model binaries and preprocessors
-- Large intermediate artifacts and chunk outputs
+The project involves feature engineering and model experimentation to identify significant genetic markers associated with cancer progression. It includes multiple iterations of ML pipelines to achieve high accuracy.
 
-## Quick Start
-1. Create and activate a Python virtual environment
-2. Install dependencies from requirements file if available
-3. Run the required experiment script
+## Key Components
+
+- **Source Scripts**: Multiple versions of ML pipelines including `ULTRA_ENHANCED_ML_PIPELINE.py` and `MINIMAL_HIGH_ACCURACY.py`.
+- **Reports**: Detailed analysis in `Technical_Report_Cancer_Gene_Classification.md` and `ML_Analysis_Summary.md`.
+- **Verification**: `VERIFICATION_REPORT.md` documents the validation steps taken for the models.
+
+## Repository Structure
+
+- **Python Scripts**: Various scripts for feature aggregation and model training.
+- **Documentation**: Comprehensive reports and analysis notes.
+- **Data**: TSV and text files containing gene symbols and census data.
+
+## Setup Instructions
+
+1. Configure a Python virtual environment.
+2. Install necessary libraries such as scikit-learn, pandas, and numpy.
+3. Execute the primary pipeline scripts to reproduce findings.
 
 ## Notes
-The repository was prepared for clean source control publishing by excluding large generated files.
+
+Large generated files and binaries are excluded from version control to maintain a clean repository structure.
