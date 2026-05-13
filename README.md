@@ -6,6 +6,19 @@ The goal is to explore how computational models can help separate likely cancer-
 
 ---
 
+## Project links and evidence
+
+| Item | Link / Note |
+|---|---|
+| Repository | https://github.com/Mrudula-itsjuzme/cancer-driver-gene-classification-ml |
+| Paper / reference | No external paper link attached yet; methodology is documented in project reports |
+| Demo video | Not uploaded yet |
+| Deployment | Not applicable; research/ML pipeline |
+| Dataset note | Uses gene-symbol/cancer-gene census style data included or referenced in the repo; provenance should be expanded in a future update |
+| Result screenshots / reports | Check `Technical_Report_Cancer_Gene_Classification.md`, `ML_Analysis_Summary.md`, and `VERIFICATION_REPORT.md` |
+
+---
+
 ## Problem statement
 
 Cancer driver genes play an important role in tumor development and progression. Manually identifying these genes is slow and requires biological expertise, curated datasets, and repeated validation.
