@@ -1,29 +1,110 @@
 # Cancer Driver Gene Classification with Machine Learning
 
-This repository contains bioinformatics research and machine learning experiments focused on classifying cancer driver genes.
+A bioinformatics machine-learning project for classifying cancer driver genes using feature engineering, curated gene datasets, and supervised ML pipelines.
 
-## Overview
+The goal is to explore how computational models can help separate likely cancer-associated driver genes from non-driver or less relevant genes using structured biological features.
 
-The project involves feature engineering and model experimentation to identify significant genetic markers associated with cancer progression. It includes multiple iterations of ML pipelines to achieve high accuracy.
+---
 
-## Key Components
+## Problem statement
 
-- **Source Scripts**: Multiple versions of ML pipelines including `ULTRA_ENHANCED_ML_PIPELINE.py` and `MINIMAL_HIGH_ACCURACY.py`.
-- **Reports**: Detailed analysis in `Technical_Report_Cancer_Gene_Classification.md` and `ML_Analysis_Summary.md`.
-- **Verification**: `VERIFICATION_REPORT.md` documents the validation steps taken for the models.
+Cancer driver genes play an important role in tumor development and progression. Manually identifying these genes is slow and requires biological expertise, curated datasets, and repeated validation.
 
-## Repository Structure
+This repository experiments with machine-learning pipelines that learn patterns from gene-level data and classify genes based on cancer-driver relevance.
 
-- **Python Scripts**: Various scripts for feature aggregation and model training.
-- **Documentation**: Comprehensive reports and analysis notes.
-- **Data**: TSV and text files containing gene symbols and census data.
+---
 
-## Setup Instructions
+## What this project includes
 
-1. Configure a Python virtual environment.
-2. Install necessary libraries such as scikit-learn, pandas, and numpy.
-3. Execute the primary pipeline scripts to reproduce findings.
+- gene-symbol and cancer-gene dataset preparation
+- feature aggregation and preprocessing
+- model-training scripts
+- high-accuracy minimal pipelines
+- technical reports and verification notes
+- experiment summaries for reproducibility
 
-## Notes
+---
 
-Large generated files and binaries are excluded from version control to maintain a clean repository structure.
+## Pipeline
+
+```text
+Gene / Census Data
+        ↓
+Cleaning + Feature Engineering
+        ↓
+Training Dataset Construction
+        ↓
+ML Model Training
+        ↓
+Evaluation + Verification
+        ↓
+Classification Results + Reports
+```
+
+---
+
+## Key files
+
+| File | Purpose |
+|---|---|
+| `ULTRA_ENHANCED_ML_PIPELINE.py` | expanded ML experimentation pipeline |
+| `MINIMAL_HIGH_ACCURACY.py` | compact high-performing training script |
+| `Technical_Report_Cancer_Gene_Classification.md` | project report and methodology notes |
+| `ML_Analysis_Summary.md` | summary of model experiments and findings |
+| `VERIFICATION_REPORT.md` | validation and verification notes |
+
+---
+
+## Quick start
+
+```bash
+git clone https://github.com/Mrudula-itsjuzme/cancer-driver-gene-classification-ml.git
+cd cancer-driver-gene-classification-ml
+
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+
+pip install pandas numpy scikit-learn matplotlib seaborn
+```
+
+Run one of the main pipelines:
+
+```bash
+python MINIMAL_HIGH_ACCURACY.py
+```
+
+or:
+
+```bash
+python ULTRA_ENHANCED_ML_PIPELINE.py
+```
+
+---
+
+## Tech stack
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib / Seaborn
+- Bioinformatics datasets
+- Supervised machine learning
+
+---
+
+## Why this project matters
+
+The project connects machine learning with biomedical discovery. It shows how structured biological data can be turned into a classification pipeline and how model outputs can support gene-prioritization workflows.
+
+---
+
+## Current status
+
+Research/prototype implementation. The next improvement would be adding a single `requirements.txt`, a CLI runner, and clearly documented dataset provenance so the experiments are easier to reproduce end-to-end.
+
+---
+
+## Author
+
+Built by [Pedamallu Sai Mrudula](https://github.com/Mrudula-itsjuzme) as part of an applied AI and biomedical machine-learning portfolio.
