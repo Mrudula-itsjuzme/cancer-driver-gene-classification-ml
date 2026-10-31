@@ -8,3 +8,10 @@
 | Code and scripts | Original project implementation | MIT covers only rights-held contributions |
 
 **Status:** Dataset identity, edition and redistribution permission not established in this audit. Publicly accessible bioinformatics databases can have attribution or use restrictions.
+
+## Relevant upstream example (2026-10-31)
+The COSMIC Cancer Gene Census download page requires registration for noncommercial access and directs commercial users to licensing. **This only applies if this repository actually uses COSMIC data**; the precise dataset used in this repository has not been matched.
+
+- https://cancer.sanger.ac.uk/cosmic/download/cosmic/v104/cancergenecensus
+
+**Action:** trace the exact input data from code and prior downloads to determine whether COSMIC restrictions or a different dataset license apply. No definitive redistribution clearance has been established.
